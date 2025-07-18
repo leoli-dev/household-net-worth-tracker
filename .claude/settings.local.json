@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npx sv create:*)",
+      "Bash(mkdir:*)",
+      "Bash(ls:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss:*)",
+      "Bash(./node_modules/.bin/tailwindcss:*)",
+      "Bash(mv:*)",
+      "Bash(true)",
+      "Bash(rmdir:*)",
+      "Bash(npm run dev:*)",
+      "Bash(rm:*)",
+      "Bash(timeout 30 npm run dev)",
+      "Bash(npm run build:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(timeout 10 npm run dev)"
+    ],
+    "deny": []
+  }
+}
